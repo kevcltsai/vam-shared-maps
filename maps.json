@@ -1,0 +1,17 @@
+{
+  "categories": ["料理與食物", "身體", "知識與思考", "示範"],
+  "maps": {
+    "cooking-science.html":       { "category": "料理與食物", "description": "第一次煎牛排要知道的事" },
+    "steak_ch_eng.html":          { "category": "料理與食物", "title": "料理的科學（繁／簡／英）", "description": "同一張牛排地圖的多語版本" },
+    "cooking_steak_ch_eng.html":  { "category": "料理與食物", "title": "料理的科學（繁／簡／英，另一版）", "description": "多語版本的另一份翻譯" },
+    "beef_parts.html":            { "category": "料理與食物", "description": "紐約客、牛肋條等部位的熱量比較" },
+    "back_muscles.html":          { "category": "身體", "description": "斜方肌、頸夾肌等背部肌群與伸展" },
+    "math.html":                  { "category": "知識與思考", "description": "數學到底在做什麼" },
+    "philosophy.html":            { "category": "知識與思考", "description": "從「我怎麼知道什麼是真的？」等根問題出發" },
+    "thinking_frameworks.html":   { "category": "知識與思考", "description": "為什麼需要框架、有哪些框架" },
+    "whats_money.html":           { "category": "知識與思考", "description": "從「沒有錢的世界」談金錢到底是什麼" },
+    "english_grammar.html":       { "category": "知識與思考", "description": "文法的本質與理論基礎" },
+    "art_appreciation.html":      { "category": "知識與思考", "description": "怎麼看一幅畫，以及名畫背後的故事" },
+    "hypothesis_demo.html":       { "category": "示範", "title": "假設驅動示範", "description": "以「美國年輕人失業率高，主因是 AI 嗎？」示範假設式拆解" }
+  }
+}
