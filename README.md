@@ -17,12 +17,6 @@
 | [料理的科學（繁／簡／英，另一版）](https://kevcltsai.github.io/vam-shared-maps/maps/cooking_steak_ch_eng.html) | 多語版本的另一份翻譯 |
 | [牛肉各部位熱量](https://kevcltsai.github.io/vam-shared-maps/maps/beef_parts.html) | 紐約客、牛肋條等部位的熱量比較 |
 
-### 身體
-
-| 地圖 | 說明 |
-|---|---|
-| [背部伸展](https://kevcltsai.github.io/vam-shared-maps/maps/back_muscles.html) | 斜方肌、頸夾肌等背部肌群與伸展 |
-
 ### 知識與思考
 
 | 地圖 | 說明 |
