@@ -40,6 +40,12 @@
 |---|---|
 | [假設驅動示範](https://kevcltsai.github.io/vam-shared-maps/maps/hypothesis_demo.html) | 以「美國年輕人失業率高，主因是 AI 嗎？」示範假設式拆解 |
 
+### 其他
+
+| 地圖 | 說明 |
+|---|---|
+| [背部伸展](https://kevcltsai.github.io/vam-shared-maps/maps/muscle_stretches.html) |  |
+
 <!-- MAPS:END -->
 
 ## 怎麼新增一張地圖
