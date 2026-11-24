@@ -15,6 +15,9 @@ ROOT = Path(__file__).resolve().parent.parent
 MAPS_DIR = ROOT / "maps"
 CATALOG = ROOT / "maps.json"
 OUT = ROOT / "index.html"
+README = ROOT / "README.md"
+START, END = "<!-- MAPS:START", "<!-- MAPS:END -->"
+BASE_URL = "https://kevcltsai.github.io/vam-shared-maps/maps/"
 FALLBACK_CATEGORY = "其他"
 TITLE_RE = re.compile(rb"<title>(.*?)</title>", re.I | re.S)
 
@@ -86,7 +89,33 @@ def main() -> None:
 </html>
 """
     OUT.write_text(page, "utf-8")
+    update_readme(order, groups)
     print(f"wrote {OUT.name}: {sum(len(v) for v in groups.values())} maps")
+
+
+def md(text: str) -> str:
+    return text.replace("|", "\\|")
+
+
+def update_readme(order, groups) -> None:
+    if not README.exists():
+        return
+    text = README.read_text("utf-8")
+    if START not in text or END not in text:
+        return
+    parts = []
+    for cat in order:
+        items = groups.get(cat)
+        if not items:
+            continue
+        rows = [f"### {cat}", "", "| 地圖 | 說明 |", "|---|---|"]
+        for name, title, desc in items:
+            rows.append(f"| [{md(title)}]({BASE_URL}{name}) | {md(desc)} |")
+        parts.append("\n".join(rows))
+    head, rest = text.split(START, 1)
+    marker_line, _ = rest.split("\n", 1)
+    _, tail = rest.split(END, 1)
+    README.write_text(head + START + marker_line + "\n\n" + "\n\n".join(parts) + "\n\n" + END + tail, "utf-8")
 
 
 if __name__ == "__main__":
