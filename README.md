@@ -39,6 +39,7 @@
 | 地圖 | 說明 |
 |---|---|
 | [背部伸展](https://kevcltsai.github.io/vam-shared-maps/maps/muscle_stretches.html) |  |
+| [心理學圖文書](https://kevcltsai.github.io/vam-shared-maps/maps/psychology.html) |  |
 
 <!-- MAPS:END -->
 
