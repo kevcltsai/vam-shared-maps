@@ -38,6 +38,7 @@
 
 | 地圖 | 說明 |
 |---|---|
+| [財富的法則](https://kevcltsai.github.io/vam-shared-maps/maps/about_wealth.html) |  |
 | [42歲女性的瘦身與美容](https://kevcltsai.github.io/vam-shared-maps/maps/for_her.html) |  |
 | [背部伸展](https://kevcltsai.github.io/vam-shared-maps/maps/muscle_stretches.html) |  |
 | [心理學圖文書](https://kevcltsai.github.io/vam-shared-maps/maps/psychology.html) |  |
