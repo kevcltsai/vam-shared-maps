@@ -38,6 +38,7 @@
 
 | 地圖 | 說明 |
 |---|---|
+| [42歲女性的瘦身與美容](https://kevcltsai.github.io/vam-shared-maps/maps/for_her.html) |  |
 | [背部伸展](https://kevcltsai.github.io/vam-shared-maps/maps/muscle_stretches.html) |  |
 | [心理學圖文書](https://kevcltsai.github.io/vam-shared-maps/maps/psychology.html) |  |
 | [不想讓你知道的世界真相](https://kevcltsai.github.io/vam-shared-maps/maps/untold_truth.html) |  |
